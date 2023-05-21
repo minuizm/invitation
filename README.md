@@ -1,10 +1,10 @@
-# HahaHoho Project
+# Wedding Invitation
 
 ## Web Page for Wedding Invitation
 
 ### Link
 
-[www.hahahohoproject.com](https://minuizm.github.io/invitation/)
+[https://minuizm.github.io/invitation/](https://minuizm.github.io/invitation/)
 
 ### Draft By Device (Responsive)
 
