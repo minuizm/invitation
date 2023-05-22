@@ -3356,6 +3356,23 @@ input, select, textarea {
 				background-image: url(images/arrow_up.svg);
 			}
 
+			.ccmaps {
+				margin: 1em 0;
+				background-image: url(images/arrow_down.svg);
+			    background-position: center right;
+			    background-repeat: no-repeat;
+			    background-size: 0.8em;
+				cursor: pointer;
+			}
+
+			.video_list .opened {
+				background-image: url(images/arrow_up.svg);
+			}
+
+			.style7 .ccmaps .ccmaps_wrp {
+				display: none;
+			}
+
 			.style7 .video_list .video_wrp {
 				display: none;
 			}
@@ -4820,6 +4837,14 @@ input, select, textarea {
 
 		.ctt_content { position: relative; /*margin-top:2em;*/ }
 		.ctt_content .lining { border-top: 0.1em solid #FFF; position: absolute; top: -0.4em; left: 50%; width: 4em; margin-left: -2em; line-height: 2.0em; letter-spacing: 0em; }
+		.ctt_content .long_lining { border-top: 0.1em solid #FFF;
+			position: absolute;
+			top: -0.4em;
+			left: 50%;
+			width: 80%; /* Adjust the width as desired */
+			margin-left: -40%; /* Half of the width to center the line */
+			line-height: 2.0em;
+			letter-spacing: 0em;}
 		.ctt_content .modal_title { color: #FFF; font-weight: normal; font-size: 1.15em; }
 		.ctt_content .modal_text { color: #FFF; }
 		.ctt_content .modal_text a.icon { background-image: url("../../images/icon_sms_w.png"); }
